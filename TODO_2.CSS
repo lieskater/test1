@@ -1,0 +1,30 @@
+p{
+  font-family: arial;
+}
+.render , .panel{
+  font-family: arial;
+  display: grid;
+  grid-template-columns: 300px 200px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-top: 18px;
+  height: 30px;
+  align-items:center;
+}
+.input , .time , .btn{
+  height : 30px;
+  align-items:stretch;
+  font-size: 20px;
+}
+.btn{
+  background-color: green;
+  color : white ;
+  border : none ;
+  height: 35px;
+}
+.del { 
+  background-color: rgb(168, 0, 0);
+  color : white;
+  height : 30px;
+  border : none;
+}
